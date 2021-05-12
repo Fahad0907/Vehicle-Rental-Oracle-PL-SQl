@@ -1,0 +1,10 @@
+clear screen;
+drop sequence travel1;
+drop sequence travel2;
+drop sequence travel3;
+drop sequence cusid;
+create sequence travel1 increment by 1 start with 1;
+create sequence travel2 increment by 1 start with 1;
+create sequence travel3 increment by 1 start with 1;
+create sequence cusid increment by 1 start with 1;
+commit;
